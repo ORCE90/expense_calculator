@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5EDF5;
+    overflow-x: hidden;
+}
+
+.main-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-div select{
+    height: 35px;
+    margin-top: 40px;
+    margin-right: 210px;
+    margin-bottom: 10px;
+    color: #8d8d8d;
+}
+.main-div option {
+    padding: 10px;
+}
+.main-div h3 {
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+/* EXPENSES */
+
+#expenses-title {
+    margin-left: 145px;
+    margin-bottom: 40px;
+}
+
+.tabs-div{
+    display: flex;
+    align-items: center;
+    width: 85%;
+}
+
+.option-select-div{
+    margin-left: 40px;
+    color: #8D8D8D;
+}
+
+#month-button{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #1DD1A1;
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    height: 60px;
+    width: 130px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.17);
+    margin-left: 110px;
+}
+
+#year-button{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #C9E5DD;
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    height: 60px;
+    width: 130px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.17);
+}
+
+.expenses-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.expenses {
+    width: 85%;
+    display: flex;
+}
+.expenses-div button {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.select-btn {
+    background: #C9E5DD;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.active-btn {
+    background: #1DD1A1;
+}
+.option-select-div{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+.yearMonthly-div{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.yearMonthly-div label {
+    width: 20%;
+    font-family: 'Roboto', sans-serif;
+}
+.option-select-div label {
+    width: 40%;
+    padding-left: 50px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.month-select {
+    height: 35px;
+    background: #fff; 
+    border: 2px solid #C6C6C6;
+    width: 40%;
+    color:  #8D8D8D;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.select-box{
+    width: 50%
+}
+.month-select option {
+    padding: 50px;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    width: 85%;
+}

@@ -1,0 +1,233 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color:#E5EDF5;
+    overflow-x: hidden;
+}
+
+/* Main content*/
+
+#main-box {
+    display: flex;
+    width: 1020px;
+    max-height: 800px;
+    margin: auto;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
+}
+.box-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    margin:auto;
+    background-color: #fff;
+    padding: 0;
+    height: 600px;
+    width: 570px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.new-product-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    background-color: #e9e7e7;
+    text-align: center;
+    color:#9a9a9a;
+    width: 450px;
+    height: 600px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#new-products-h3{
+    margin-left: 200px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+.new-product-div span i{
+    font-size: 50px;
+    color: #9a9a9a;
+}
+.new-product-div h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#primary-button {
+    margin-top:40px;
+}
+.form-box {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    button {
+       display: inline-block;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .buttons {
+       display: inline-block;
+       flex-wrap: wrap;
+       flex-direction: column;
+       flex: 1;
+    }
+    .right-side{
+        width: 25%;
+    }
+    .main-div label{
+        position: absolute;
+        top: 80px;
+        left: 50px;
+    }
+}
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color:#E5EDF5;
+    overflow-x: hidden;
+}
+
+.user-info-main {
+    display: flex;
+    width: 1020px;
+    max-height: 900px;
+    margin: auto;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.user-form-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    margin:auto;
+    background-color: #fff;
+    padding: 0;
+    height: 70%;
+    width: 770px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    
+}
+
+.user-info-div form {
+    margin-left: 50px;
+}
+
+.infos {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 40%;
+    align-items: center;
+}
+
+.val-input { 
+    background: #fff;
+    border: 1.5px solid #c6c6c6;
+    height: 34px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-bottom: 8.5px;
+    color: #8d8d8d;
+}
+
+.save-btn {
+    font-size: 15px; 
+    color: #fff;
+    background: #1DD1A1; 
+    height: 45px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 19px;
+    margin-top: 20px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.val-input,
+.save-btn {
+    width: 330px;
+}
+
+.text-field,
+.val-label {
+    display: block;
+}
+
+.val-label {
+    font-size: 17px;
+    margin-bottom: 8.5px;
+    color: #8d8d8d;
+}
+
+.general-h3 {
+    margin-left: 200px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.address-p {
+    display: flex;
+}
+
+#addressCheckbox {
+    height: 20px;
+    width: 20px;
+}
+
+.user-info-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    background-color: #e9e7e7;
+    text-align: center;
+    color:#9a9a9a;
+    width: 650px;
+    height: 695px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.user-info-div span i{
+    font-size: 50px;
+    color: #9a9a9a;
+}
+.user-info-div h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#input-fields{
+    height: 700px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#newProductDiv {
+    height: 700px;
+    margin: auto;
+    margin-bottom: 100px;
+}
